@@ -29,8 +29,10 @@ mv  apache-maven-3.5.3 /java/apache-maven-3.5.3
 
 echo 'export JAVA_HOME=/java/jdk1.8' >> /etc/profile
 
-echo 'export  CLASSPATH=$:CLASSPATH:$JAVA_HOME/lib/' >> /etc/profile
+echo 'export JRE_HOME=${JAVA_HOME}/jre' >> /etc/profile
 
-echo 'export  PATH=$PATH:$JAVA_HOME/bin:/java/apache-maven-3.5.3/bin' >> /etc/profile
+echo 'export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib' >> /etc/profile
+
+echo 'export PATH=${JAVA_HOME}/bin:$PATH' >> /etc/profile
 
 source /etc/profile
