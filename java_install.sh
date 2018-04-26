@@ -22,7 +22,7 @@ mv  jdk1.8.0_144  /java/jdk1.8
 
 echo '***************************************'
 echo '*                                     *'
-echo '*      Maven3.5 install ...             *'
+echo '*      Maven3.5 install ...           *'
 echo '*                                     *'
 echo '***************************************'
 
@@ -52,7 +52,7 @@ source /etc/profile
 
 echo '***************************************'
 echo '*                                     *'
-echo '*      Tomcat8.5 install ...             *'
+echo '*      Tomcat8.5 install ...          *'
 echo '*                                     *'
 echo '***************************************'
 
