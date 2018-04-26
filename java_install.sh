@@ -4,6 +4,8 @@ mkdir /java
 
 yum -y install wget
 
+yum install glibc.i686
+
 echo 'begin install Jdk1.8....'
 
 wget -O jdk-8u144-linux-i586.tar.gz http://om40sen9v.bkt.clouddn.com/14ca4f70f43e41f4a593fee6e56a1541.gz
