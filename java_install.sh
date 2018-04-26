@@ -35,4 +35,9 @@ echo 'export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib' >> /etc/profile
 
 echo 'export PATH=${JAVA_HOME}/bin:$PATH' >> /etc/profile
 
+echo 'export MAVEM_HOME=/java/apache-maven-3.5.3' >> /etc/profile
+
+echo 'export PATH=${MAVEM_HOME}/bin:$PATH' >> /etc/profile
+
+
 source /etc/profile
