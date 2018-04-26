@@ -30,3 +30,5 @@ echo 'export JAVA_HOME=/suyu/jdk1.8' >> /etc/profile
 echo 'export  CLASSPATH=$:CLASSPATH:$JAVA_HOME/lib/' >> /etc/profile
 
 echo 'export  PATH=$PATH:$JAVA_HOME/bin:/usr/local/apache-maven-3.5.3/bin' >> /etc/profile
+
+source /etc/profile
