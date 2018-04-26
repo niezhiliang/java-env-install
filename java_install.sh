@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir /suyu
+mkdir /java
 
 yum -y install wget
 
@@ -12,7 +12,7 @@ tar -xzvf jdk-8u144-linux-i586.tar.gz
 
 rm -f -r jdk-8u144-linux-i586.tar.gz
 
-mv  jdk1.8.0_144  /suyu/jdk1.8
+mv  jdk1.8.0_144  /java/jdk1.8
 
 echo 'begin download Maven ....'
 
@@ -22,13 +22,13 @@ tar -xzvf apache-maven-3.5.3-bin.tar.gz
 
 rm -f -r  apache-maven-3.5.3-bin.tar.gz
 
-mv  apache-maven-3.5.3 /suyu/apache-maven-3.5.3
+mv  apache-maven-3.5.3 /java/apache-maven-3.5.3
 
 
-echo 'export JAVA_HOME=/suyu/jdk1.8' >> /etc/profile
+echo 'export JAVA_HOME=/java/jdk1.8' >> /etc/profile
 
 echo 'export  CLASSPATH=$:CLASSPATH:$JAVA_HOME/lib/' >> /etc/profile
 
-echo 'export  PATH=$PATH:$JAVA_HOME/bin:/usr/local/apache-maven-3.5.3/bin' >> /etc/profile
+echo 'export  PATH=$PATH:$JAVA_HOME/bin:/java/apache-maven-3.5.3/bin' >> /etc/profile
 
 source /etc/profile
