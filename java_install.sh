@@ -4,7 +4,7 @@ mkdir /java
 
 yum -y install wget
 
-yum install glibc.i686
+yum install glibc.i686 -y
 
 echo 'begin install Jdk1.8....'
 
