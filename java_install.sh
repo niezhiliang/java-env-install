@@ -67,3 +67,7 @@ mv  apache-tomcat-8.5.30 /java/apache-tomcat-8.5
 cd /java/apache-tomcat-8.5/bin/
 
 ./startup.sh
+
+java -version
+
+mvn -v
