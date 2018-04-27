@@ -1,13 +1,13 @@
-wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.17-linux-glibc2.5-x86_64.tar.gz
+wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
+lc_messages
 
+if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 
-if [ -e "/root/mysql-5.7.17-linux-glibc2.5-x86_64.tar.gz" ]; then
+	 tar -xzvf mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
 
-	 tar -xzvf mysql-5.7.17-linux-glibc2.5-x86_64.tar.gz
+	 rm -f -r mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
 
-	 rm -f -r mysql-5.7.17-linux-glibc2.5-x86_64.tar.gz
-
-	 mv mysql-5.7.17-linux-glibc2.5-x86_64 /usr/local/mysql
+	 mv mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
 
 else 
 	echo '***************************************'
@@ -59,11 +59,12 @@ chown -R mysql mysql/
 chgrp -R mysql mysql/
 
 cd mysql/
-  #sUFre**tV4g#
+  #tl!reWPhQ2k<
 
 cd bin/
 
 #安装和初始化数据库 并把密码文件保存到mysqlpwd.txt中
+#./mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data 
 mysqlpwd=$(./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/ --datadir=/usr/local/mysql/data/ --lc_messages_dir=/usr/local/mysql/share --lc_messages=en_US)
 
 touch /java/mysqlpwd.txt
@@ -106,7 +107,7 @@ chkconfig --add mysql
 cd /usr/local/mysql
 
 cd bin/
-
+s<UJBLm<&7kj
 #会报错
 service mysql start
 
