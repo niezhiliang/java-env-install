@@ -28,9 +28,7 @@ path=`pwd`
 
 cd ~
 
-echo "export MAVEN_HOME=${path}" >> .bash_profile
-
-echo "export PATH=${MAVEN_HOME}/bin:$PATH" >> .bash_profile
+echo "export PATH=${path}/bin:$PATH" >> .bash_profile
 
 source .bash_profile
 
