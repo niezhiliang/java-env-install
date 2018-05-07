@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#安装maven
 cd ~
 
 cd Public
@@ -31,6 +32,26 @@ cd ~
 echo "export PATH=${path}/bin:$PATH" >> .bash_profile
 
 source .bash_profile
+#安装tomcat
+cd ~
+
+cd Public/
+
+mkdir tomcat
+
+cd tomcat/
+
+#下载tomacat包
+curl -O http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.tar.gz
+
+tar -xzvf apache-tomcat-8.5.31.tar.gz
+
+rm -f -r  apache-tomcat-8.5.31.tar.gz
+
+cd  apache-tomcat-8.5.31/bin/
+
+./startup.sh
+
 
 mvn -v
 
