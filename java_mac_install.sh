@@ -18,9 +18,6 @@ cd ~
 
 if [ ! -e .bash_profile  ]; then
 
-
-	
-else 
 	touch .bash_profile
 
 fi
