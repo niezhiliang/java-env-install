@@ -28,9 +28,9 @@ path=`pwd`
 
 cd ~
 
-echo 'export MAVEM_HOME=${path}’ >> .bash_profile
+echo "export MAVEM_HOME=${path}" >> .bash_profile
 
-echo 'export PATH=${MAVEM_HOME}/bin:$PATH' >> .bash_profile
+echo "export PATH=${MAVEM_HOME}/bin:$PATH" >> .bash_profile
 
 source .bash_profile
 
