@@ -15,6 +15,10 @@ Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0、Mysql
  ```
 ##### Mysql 
 
+mysql安装有点麻烦，所以在执行脚本之前确定把服务器上面的mysql删除干净啦，
+上一篇彻底删除mysql的博客
+
+
 安装完成后会把mysql自动生成的密码保存在
 
 - 首先登录到mysql中
