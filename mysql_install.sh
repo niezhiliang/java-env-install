@@ -107,12 +107,11 @@ chkconfig --add mysql
 cd /usr/local/mysql
 
 cd bin/
-s<UJBLm<&7kj
 #会报错
 service mysql start
 
 #解决
-rm -f -r  /etc/my.cnf 
+#rm -f -r  /etc/my.cnf 
 
-/etc/init.d/mysql start 
+#/etc/init.d/mysql start 
 
