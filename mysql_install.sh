@@ -1,7 +1,7 @@
 cd ~
 
-# wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
-# lc_messages
+wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
+lc_messages
 
 if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 
@@ -9,7 +9,7 @@ if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 
 	 rm -f -r mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
 
-	 mv mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
+	 sudo mv mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
 fi
 
 
@@ -40,9 +40,9 @@ fi
 cd ..
 
 #更改mysql目录下所有的目录及文件夹所属组合用户
-chown -R mysql mysql/
+sudo chown -R mysql mysql/
 
-chgrp -R mysql mysql/
+sudo chgrp -R mysql mysql/
 
 cd mysql/
   #tl!reWPhQ2k<
