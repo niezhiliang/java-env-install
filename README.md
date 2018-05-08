@@ -20,6 +20,9 @@ mysql安装有点麻烦，所以在执行脚本之前确定把服务器上面的
 
 https://blog.csdn.net/qq_38082304/article/details/80237325
 
+如果启动的时候显示文件不存在的请参考下面这篇博客解决
+
+https://blog.csdn.net/zalion/article/details/9274263
 
 安装完成后会把mysql自动生成的密码保存在
 
