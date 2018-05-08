@@ -20,11 +20,16 @@ mysql安装有点麻烦，所以在执行脚本之前确定把服务器上面的
 
 https://blog.csdn.net/qq_38082304/article/details/80237325
 
-如果启动的时候显示文件不存在的请参考下面这篇博客解决
+安装完成后会是这个样子 初始密码用红色的框框标记出来啦(后期会将该密码输出到某文件中)
+![avatar](https://github.com/niezhiliang/java_env_install/blob/master/pic/success.png)
 
+如果启动的失败请参考下面这篇博客解决
+
+![avatar](https://github.com/niezhiliang/java_env_install/blob/master/pic/fail.png)
+> 我用这个脚本装了不下10次，每次都是后台有mysql的进程没关掉，导致启动失败（启动失败首先考虑是不是又mysql的进程没关）
 https://blog.csdn.net/zalion/article/details/9274263
 
-安装完成后会把mysql自动生成的密码保存在
+
 
 - 首先登录到mysql中
 ```
