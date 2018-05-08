@@ -28,7 +28,7 @@ Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0、Mysql
  ./redis_mac.sh
  ```
  脚本安装完后 执行
- redis-cli 
- auth  你的密码（没改脚本的话为123456）
- ping  如果输出 PONG 表示安装并运行成功
+ - redis-cli 
+ - auth  你的密码（没改脚本的话为123456）
+ - ping  如果输出 PONG 表示安装并运行成功
  
