@@ -1,7 +1,7 @@
 cd ~
 
-wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
-lc_messages
+# wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
+# lc_messages
 
 if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 
