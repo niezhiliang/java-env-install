@@ -24,7 +24,6 @@ mysql -u root -p
 ```
 - 修改登录密码
 ```
-
 set password=password('123456');  
 ```
 - 授权远程登录权限
