@@ -1,7 +1,5 @@
 cd ~
 
-mkdir java
-
 wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
 lc_messages
 
@@ -55,9 +53,9 @@ cd bin/
 #./mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data 
 mysqlpwd=$(./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/ --datadir=/usr/local/mysql/data/ --lc_messages_dir=/usr/local/mysql/share --lc_messages=en_US)
 
-touch /java/mysqlpwd.txt
+touch /root/mysqlpwd.txt
 
-echo ${mysqlpwd} >> /java/mysqlpwd.txt
+echo ${mysqlpwd} >> /root/mysqlpwd.txt
 
 #配置my.cnf 
 #接下来进入/usr/local/mysql/support-files/目录下 
@@ -70,8 +68,8 @@ else
 #如果不存在my-default.cnf文件,则在/etc/目录下创建my.cnf,并写入以下内容
 	touch  /etc/my.cnf
 	echo '#[mysql]' >> /etc/my.cnf  
-	echo '#basedir=/java/mysql_5.7.17/' >> /etc/my.cnf   
-	echo '#datadir=/java/mysql_5.7.17/data/' >> /etc/my.cnf 
+	echo '#basedir=/usr/local/mysql/' >> /etc/my.cnf   
+	echo '#datadir=/usr/local/mysql/data/' >> /etc/my.cnf 
 
 fi
 
