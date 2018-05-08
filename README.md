@@ -13,5 +13,7 @@ Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0、Mysql
  ```
  ./java_install.sh
  ```
-##### Mysql还在开发中
+##### Mysql 
+
+安装完成后会把mysql自动生成的密码保存在
 
