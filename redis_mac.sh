@@ -21,7 +21,7 @@ echo "daemonize yes" >> ${conf}
 echo "requirepass ${password}" >> ${conf}
 
 
-#卸载redis和它的文件 
+#卸载redis和它的文件 （这里好像有问题，不能卸载）
 #brewuninstallredis rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 #测试Redis server是否启动
