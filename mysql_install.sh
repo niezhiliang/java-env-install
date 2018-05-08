@@ -13,11 +13,6 @@ if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 fi
 
 
-
-#检查库文件是否有删除，若有便删除（linux系统自带的）
- rpm -qa | grep mysql
-
-
 #检查mysql组和用户是否存在，如无创建
 
 user=$(cat /etc/group | grep mysql )
