@@ -10,14 +10,6 @@ if [ -e "/root/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz" ]; then
 	 rm -f -r mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz
 
 	 mv mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
-
-else 
-	echo '***************************************'
-	echo '*                                     *'
-	echo '*      MySQL Downloads Fail ...    	   *'
-	echo '*                                     *'
-	echo '***************************************'
-
 fi
 
 
@@ -35,14 +27,6 @@ if [ ! $user ]; then
 
 	#useradd -r参数表示mysql用户是系统用户，不可用于登录系统
 	 useradd -r -g mysql mysql
-
- else 
-	echo '***************************************'
-	echo '*                                     *'
-	echo '*      MySQL Group exist ...          	*'
-	echo '*                                     *'
-	echo '***************************************'
-
 fi
 
 cd /usr/local/mysql/
