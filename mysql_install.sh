@@ -96,6 +96,8 @@ cd bin/
 #会报错
 service mysql start
 
+ln -s /usr/local/mysql/bin/mysql /usr/bin
+
 #解决
 #rm -f -r  /etc/my.cnf 
 
