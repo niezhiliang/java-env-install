@@ -47,6 +47,13 @@ echo 'export MAVEM_HOME=/java/apache-maven-3.5.3' >> /etc/profile
 
 echo 'export PATH=${MAVEM_HOME}/bin:$PATH' >> /etc/profile
 
+if [ -e "/java/apache-maven-3.5.3/conf/settings.xml" ]; then
+
+  rm -f -r  /java/apache-maven-3.5.3/conf/settings.xml
+  
+  mv settings.xml /java/apache-maven-3.5.3/conf/
+fi
+
 
 source /etc/profile
 
