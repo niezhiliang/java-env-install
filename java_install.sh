@@ -6,11 +6,11 @@ yum -y install wget
 
 yum install glibc.i686 -y
 
-echo '***************************************'
-echo '*                                     *'
-echo '*      Jdk1.8 install ...             *'
-echo '*                                     *'
-echo '***************************************'
+echo '======================================='
+echo '$                                     $'
+echo '$      Jdk1.8 install ...             $'
+echo '$                                     $'
+echo '======================================='
 
 wget -O jdk-8u144-linux-i586.tar.gz http://om40sen9v.bkt.clouddn.com/14ca4f70f43e41f4a593fee6e56a1541.gz
 
@@ -20,11 +20,11 @@ rm -f -r jdk-8u144-linux-i586.tar.gz
 
 mv  jdk1.8.0_144  /java/jdk1.8
 
-echo '***************************************'
-echo '*                                     *'
-echo '*      Maven3.5 install ...           *'
-echo '*                                     *'
-echo '***************************************'
+echo '======================================='
+echo '$                                     $'
+echo '$      Maven3.5 install ...           $'
+echo '$                                     $'
+echo '======================================='
 
 wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
 
