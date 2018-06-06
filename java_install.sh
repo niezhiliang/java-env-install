@@ -63,17 +63,17 @@ source /etc/profile
 # echo '*                                     *'
 # echo '***************************************'
 
-# wget http://mirrors.shu.edu.cn/apache/tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.tar.gz
+wget http://mirrors.shu.edu.cn/apache/tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.tar.gz
 
-# tar -zxvf apache-tomcat-8.5.30.tar.gz  
+tar -zxvf apache-tomcat-8.5.30.tar.gz  
 
-# rm -f -r apache-tomcat-8.5.30.tar.gz 
+rm -f -r apache-tomcat-8.5.30.tar.gz 
 
-# mv  apache-tomcat-8.5.30 /java/apache-tomcat-8.5
+mv  apache-tomcat-8.5.30 /java/apache-tomcat-8.5
 
-# cd /java/apache-tomcat-8.5/bin/
+cd /java/apache-tomcat-8.5/bin/
 
-# ./startup.sh
+./startup.sh
 
 java -version
 
