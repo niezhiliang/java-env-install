@@ -8,6 +8,12 @@ Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0、Mysql
  ```
  ./java_install.sh
  ```
+ 
+  - 执行node_env.sh进行nodejs 和npm环境安装自动配置淘宝镜像
+ ```
+ ./node_env.sh
+ ```
+ 
 ##### Mysql 
 
 mysql安装有点麻烦，所以在执行脚本之前确定把服务器上面的mysql删除干净啦，
