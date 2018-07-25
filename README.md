@@ -49,3 +49,34 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY '123456' WITH GRANT OPTIO
 
 > 完成上面操作就可以用Navicat用root和123456来登录啦
 
+  安装pm2
+
+  npm install pm2 -g
+
+  通过pm2 start命令启动nodejs项目
+
+  pm2 start app.js
+
+  查看pm2管理的项目列表命令
+
+  pm2 list
+
+  查看某个项目的信息
+
+  pm2 show 0 // 查看id为0的项目的信息
+
+  停止pm2启动的项目命令
+
+  pm2 stop 0 // 停止id为0的项目
+
+  pm2 stop all // 停止所有项目
+
+  重启某个项目
+
+  pm2 restart 0 // 重启id为0的项目
+
+  查看日志
+
+  pm2 logs
+
+
