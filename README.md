@@ -6,7 +6,7 @@ Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0、Mysql
  
  - 执行该脚本进行环境安装 maven仓库自动切换为阿里云仓库
  ```
- ./java_install.sh
+ ./java_install.sh(如果安装完了jdk 控制台没有显示安装信息,`重新连接下终端` 就好了)
  ```
  
   - 执行node_env.sh进行nodejs 和npm环境安装自动配置淘宝镜像
