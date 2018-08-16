@@ -34,6 +34,11 @@ rm -f -r  apache-maven-3.5.3-bin.tar.gz
 
 mv  apache-maven-3.5.3 /java/apache-maven-3.5.3
 
+#yum 安装
+# sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+# sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+# sudo yum install -y apache-maven
+
 
 echo 'export JAVA_HOME=/java/jdk1.8' >> /etc/profile
 
