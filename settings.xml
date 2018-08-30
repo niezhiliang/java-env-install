@@ -162,6 +162,12 @@ under the License.
         <name>aliyun maven</name>
         <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
      </mirror>
+     <mirror>
+        <id>spring-libs-milestone</id>
+        <mirrorOf>central</mirrorOf>
+        <name>Spring Milestones</name>
+        <url>http://central.maven.org/maven2/</url>
+     </mirror>
   </mirrors>
 
   <!-- profiles
