@@ -12,8 +12,8 @@ echo '$      Jdk1.8 install ...             $'
 echo '$                                     $'
 echo '======================================='
 
-#Oracle官网下载会有问题，必须要Accept License Agreement 这个还是去官网下
-wget https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz
+#Oracle官网下载会有问题，必须要Accept License Agreement 加了前面这条命令就能下载成功
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;"  https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz
 
 tar -zxvf jdk-8u201-linux-x64.tar.gz
 
