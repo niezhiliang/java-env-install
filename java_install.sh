@@ -12,13 +12,14 @@ echo '$      Jdk1.8 install ...             $'
 echo '$                                     $'
 echo '======================================='
 
-wget -O jdk-8u144-linux-i586.tar.gz http://om40sen9v.bkt.clouddn.com/14ca4f70f43e41f4a593fee6e56a1541.gz
+#Oracle官网下载会有问题，必须要Accept License Agreement 这个还是去官网下
+wget https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz
 
-tar -xzvf jdk-8u144-linux-i586.tar.gz
+tar -zxvf jdk-8u201-linux-x64.tar.gz
 
-rm -f -r jdk-8u144-linux-i586.tar.gz
+rm -f -r jdk-8u181-linux-x64.tar.gz
 
-mv  jdk1.8.0_144  /java/jdk1.8
+mv  jdk1.8.0_201  /java/jdk1.8
 
 echo '======================================='
 echo '$                                     $'
