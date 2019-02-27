@@ -1,7 +1,7 @@
 # java_env_install
 Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0  docker  docker-compose nodejs pm2
 
-> 如果脚本安装完毕，`java -version` `mvn -v` 显示没有命令，请断开服务器连接，重新连接下应该就好了。
+### 如果脚本安装完毕，`java -version` `mvn -v` 显示没有命令，请断开服务器连接，重新连接下应该就好了。
 
 ##### 使用方法
 
