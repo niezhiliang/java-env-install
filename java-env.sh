@@ -13,7 +13,7 @@ echo '$                                     $'
 echo '======================================='
 
 #Oracle官网下载会有问题，必须要Accept License Agreement 加了前面这条命令就能下载成功
-wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;"  https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;"  https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.tar.gz
 
 tar -zxvf jdk-8u201-linux-x64.tar.gz
 
