@@ -1,4 +1,6 @@
 # java_env_install
+# JDK通过命令已经下载不了，其余的还不能正常使用
+
 Java环境自动安装脚本    jdk1.8、maven3.5.3、 Tomacat8.0  docker  docker-compose nodejs pm2
 
 ### 如果脚本执行完成，`java -version` `mvn -v` 显示没有命令，请断开服务器连接，重新连接下应该就好了。
