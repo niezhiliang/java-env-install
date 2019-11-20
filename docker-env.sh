@@ -18,7 +18,7 @@ systemctl enable docker
 
 service docker restart
 
-yum install python-pip.noarch
+pip install more-itertools==5.0.0
 
 sudo pip install --upgrade pip
 
