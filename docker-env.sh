@@ -18,8 +18,6 @@ systemctl enable docker
 
 service docker restart
 
-pip install more-itertools==5.0.0
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-sudo pip install --upgrade pip
-
-pip install docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
